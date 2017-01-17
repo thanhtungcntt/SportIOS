@@ -8,24 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		570AC6D10E0D2D531AF3D188 /* Pods_Sport_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE204F7D5D0D90EFFC37239 /* Pods_Sport_Project.framework */; };
+		A602DB741E2D1C9000E1287D /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A602DB731E2D1C9000E1287D /* StringUtil.swift */; };
+		A602DB761E2D1D9F00E1287D /* ExtensionUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A602DB751E2D1D9F00E1287D /* ExtensionUtil.swift */; };
 		A6431A9C1E290D4400A08DC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6431A9B1E290D4400A08DC5 /* AppDelegate.swift */; };
 		A6431A9E1E290D4400A08DC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6431A9D1E290D4400A08DC5 /* ViewController.swift */; };
 		A6431AA11E290D4400A08DC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6431A9F1E290D4400A08DC5 /* Main.storyboard */; };
 		A6431AA31E290D4400A08DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6431AA21E290D4400A08DC5 /* Assets.xcassets */; };
 		A6431AA61E290D4400A08DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6431AA41E290D4400A08DC5 /* LaunchScreen.storyboard */; };
 		A6431AAF1E2915F900A08DC5 /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6431AAE1E2915F900A08DC5 /* Identifier.swift */; };
+		A64FBAB81E2DDAF20010D975 /* ServerPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64FBAB71E2DDAF20010D975 /* ServerPath.swift */; };
+		A68568151E2BBA5A001C9826 /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68568141E2BBA5A001C9826 /* ColorUtil.swift */; };
+		A6DE41581E2BAEC600EA7290 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DE41561E2BAEC600EA7290 /* HomeCell.swift */; };
+		A6DE41591E2BAEC600EA7290 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6DE41571E2BAEC600EA7290 /* HomeCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2FE204F7D5D0D90EFFC37239 /* Pods_Sport_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sport_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A602DB731E2D1C9000E1287D /* StringUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtil.swift; sourceTree = "<group>"; };
+		A602DB751E2D1D9F00E1287D /* ExtensionUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUtil.swift; sourceTree = "<group>"; };
 		A6431A981E290D4400A08DC5 /* Sport_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sport_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6431A9B1E290D4400A08DC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A6431A9D1E290D4400A08DC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6431A9D1E290D4400A08DC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../ViewController.swift; sourceTree = "<group>"; };
 		A6431AA01E290D4400A08DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6431AA21E290D4400A08DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6431AA51E290D4400A08DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6431AA71E290D4400A08DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6431AAE1E2915F900A08DC5 /* Identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
+		A64FBAB71E2DDAF20010D975 /* ServerPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerPath.swift; sourceTree = "<group>"; };
+		A68568141E2BBA5A001C9826 /* ColorUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtil.swift; sourceTree = "<group>"; };
+		A6DE41561E2BAEC600EA7290 /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		A6DE41571E2BAEC600EA7290 /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
 		EF66645075BD58C30F455BE5 /* Pods-Sport_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sport_Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sport_Project/Pods-Sport_Project.release.xcconfig"; sourceTree = "<group>"; };
 		FC0A3FD21BB0E8F7D244374C /* Pods-Sport_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sport_Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sport_Project/Pods-Sport_Project.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,10 +83,10 @@
 		A6431A9A1E290D4400A08DC5 /* Sport_Project */ = {
 			isa = PBXGroup;
 			children = (
+				A68568131E2BBA30001C9826 /* Utils */,
+				A6DE41521E2BAE6300EA7290 /* Views */,
 				A6431AAD1E2915E200A08DC5 /* Identifiers */,
 				A6431A9B1E290D4400A08DC5 /* AppDelegate.swift */,
-				A6431A9D1E290D4400A08DC5 /* ViewController.swift */,
-				A6431A9F1E290D4400A08DC5 /* Main.storyboard */,
 				A6431AA21E290D4400A08DC5 /* Assets.xcassets */,
 				A6431AA41E290D4400A08DC5 /* LaunchScreen.storyboard */,
 				A6431AA71E290D4400A08DC5 /* Info.plist */,
@@ -88,6 +100,36 @@
 				A6431AAE1E2915F900A08DC5 /* Identifier.swift */,
 			);
 			path = Identifiers;
+			sourceTree = "<group>";
+		};
+		A68568131E2BBA30001C9826 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A68568141E2BBA5A001C9826 /* ColorUtil.swift */,
+				A602DB731E2D1C9000E1287D /* StringUtil.swift */,
+				A602DB751E2D1D9F00E1287D /* ExtensionUtil.swift */,
+				A64FBAB71E2DDAF20010D975 /* ServerPath.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A6DE41521E2BAE6300EA7290 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6DE41531E2BAE7A00EA7290 /* HomeView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A6DE41531E2BAE7A00EA7290 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				A6431A9D1E290D4400A08DC5 /* ViewController.swift */,
+				A6431A9F1E290D4400A08DC5 /* Main.storyboard */,
+				A6DE41561E2BAEC600EA7290 /* HomeCell.swift */,
+				A6DE41571E2BAEC600EA7290 /* HomeCell.xib */,
+			);
+			path = HomeView;
 			sourceTree = "<group>";
 		};
 		BED7B8359208279A95193381 /* Pods */ = {
@@ -129,7 +171,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = AllAboutSport;
 				TargetAttributes = {
 					A6431A971E290D4400A08DC5 = {
@@ -164,6 +206,7 @@
 			files = (
 				A6431AA61E290D4400A08DC5 /* LaunchScreen.storyboard in Resources */,
 				A6431AA31E290D4400A08DC5 /* Assets.xcassets in Resources */,
+				A6DE41591E2BAEC600EA7290 /* HomeCell.xib in Resources */,
 				A6431AA11E290D4400A08DC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,7 +268,12 @@
 			files = (
 				A6431A9E1E290D4400A08DC5 /* ViewController.swift in Sources */,
 				A6431AAF1E2915F900A08DC5 /* Identifier.swift in Sources */,
+				A602DB741E2D1C9000E1287D /* StringUtil.swift in Sources */,
+				A602DB761E2D1D9F00E1287D /* ExtensionUtil.swift in Sources */,
+				A6DE41581E2BAEC600EA7290 /* HomeCell.swift in Sources */,
+				A68568151E2BBA5A001C9826 /* ColorUtil.swift in Sources */,
 				A6431A9C1E290D4400A08DC5 /* AppDelegate.swift in Sources */,
+				A64FBAB81E2DDAF20010D975 /* ServerPath.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +286,7 @@
 				A6431AA01E290D4400A08DC5 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		A6431AA41E290D4400A08DC5 /* LaunchScreen.storyboard */ = {
@@ -348,6 +397,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC0A3FD21BB0E8F7D244374C /* Pods-Sport_Project.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 95VUD7N9BF;
@@ -364,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EF66645075BD58C30F455BE5 /* Pods-Sport_Project.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 95VUD7N9BF;

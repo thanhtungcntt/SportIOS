@@ -9,6 +9,6 @@
 import Foundation
 class identifier {
    
-   static var HOME_CELL = ""
+   static var HOME_CELL = "HomeCell"
     
 }
